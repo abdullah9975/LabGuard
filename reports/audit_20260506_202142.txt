@@ -1,0 +1,32 @@
+======================================================================
+         LABGUARD — NETWORK ASSET SECURITY AUDIT REPORT
+======================================================================
+  Tool          : LabGuard v1.0
+  Author        : Zinhar Abdullah
+  Scan Date     : 2026-05-06 20:21:42
+  Targets       : 1
+  Ports Checked : 30
+======================================================================
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+  Total Hosts Scanned  : 1
+  Critical Issues      : 0
+  High Issues          : 0
+  Medium Issues        : 1
+  Compliance Status    : COMPLIANT
+======================================================================
+DETAILED HOST FINDINGS
+----------------------------------------------------------------------
+
+  HOST: 192.168.1.1  (RTK_GW)
+  Overall Risk: MEDIUM
+  PORT     SERVICE         RISK       RECOMMENDATION
+  ------------------------------------------------------------
+  80       HTTP            MEDIUM     Unencrypted web — redirect to HTTPS
+           Banner: HTTP/1.0 302 Moved Temporarily
+  53       DNS             LOW        DNS service — verify it is not open resolver
+  443      HTTPS           LOW        Encrypted web — verify certificate validity
+
+======================================================================
+END OF REPORT
+======================================================================

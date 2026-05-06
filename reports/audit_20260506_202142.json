@@ -1,0 +1,49 @@
+{
+  "scan_metadata": {
+    "tool": "LabGuard v1.0",
+    "author": "Zinhar Abdullah",
+    "scan_date": "2026-05-06 20:21:42",
+    "targets_scanned": 1,
+    "port_range": "extended",
+    "ports_checked": 30
+  },
+  "summary": {
+    "total_hosts": 1,
+    "critical_issues": 0,
+    "high_issues": 0,
+    "medium_issues": 1,
+    "compliance_status": "COMPLIANT"
+  },
+  "hosts": [
+    {
+      "ip": "192.168.1.1",
+      "hostname": "RTK_GW",
+      "status": "UP",
+      "open_ports": [
+        {
+          "port": 80,
+          "service": "HTTP",
+          "risk": "MEDIUM",
+          "recommendation": "Unencrypted web \u2014 redirect to HTTPS",
+          "banner": "HTTP/1.0 302 Moved Temporarily"
+        },
+        {
+          "port": 53,
+          "service": "DNS",
+          "risk": "LOW",
+          "recommendation": "DNS service \u2014 verify it is not open resolver",
+          "banner": ""
+        },
+        {
+          "port": 443,
+          "service": "HTTPS",
+          "risk": "LOW",
+          "recommendation": "Encrypted web \u2014 verify certificate validity",
+          "banner": ""
+        }
+      ],
+      "overall_risk": "MEDIUM",
+      "scan_time": "2026-05-06 20:21:42"
+    }
+  ]
+}

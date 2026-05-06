@@ -1,0 +1,2 @@
+IP Address,Hostname,Port,Service,Risk Level,Banner,Recommendation,Scan Time
+127.0.0.1,localhost,-,-,SECURE,-,No flagged services detected,2026-05-03 17:49:31

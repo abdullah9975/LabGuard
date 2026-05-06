@@ -1,0 +1,4 @@
+IP Address,Hostname,Port,Service,Risk Level,Banner,Recommendation,Scan Time
+192.168.1.1,RTK_GW,80,HTTP,MEDIUM,HTTP/1.0 302 Moved Temporarily,Unencrypted web — redirect to HTTPS,2026-05-06 20:21:42
+192.168.1.1,RTK_GW,53,DNS,LOW,,DNS service — verify it is not open resolver,2026-05-06 20:21:42
+192.168.1.1,RTK_GW,443,HTTPS,LOW,,Encrypted web — verify certificate validity,2026-05-06 20:21:42

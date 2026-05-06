@@ -1,0 +1,27 @@
+{
+  "scan_metadata": {
+    "tool": "LabGuard v1.0",
+    "author": "Zinhar Abdullah",
+    "scan_date": "2026-05-03 17:49:31",
+    "targets_scanned": 1,
+    "port_range": "common",
+    "ports_checked": 20
+  },
+  "summary": {
+    "total_hosts": 1,
+    "critical_issues": 0,
+    "high_issues": 0,
+    "medium_issues": 0,
+    "compliance_status": "COMPLIANT"
+  },
+  "hosts": [
+    {
+      "ip": "127.0.0.1",
+      "hostname": "localhost",
+      "status": "UP (no flagged ports)",
+      "open_ports": [],
+      "overall_risk": "SECURE",
+      "scan_time": "2026-05-03 17:49:31"
+    }
+  ]
+}
